@@ -1,5 +1,11 @@
 /* DDL- DATA DEFINITION LANGUAGE COMMANDS	*/
 -- ---------------------------------------------- --
+-- CREATE
+-- ALTER
+-- DROP
+-- TRUNCATE
+-- RENAME
+
 
 /* Create a new table called persons
 with columns: id, person_name, birth_date, and phone */
@@ -23,6 +29,17 @@ drop column phone
 -- Delete the table persons from the database
 
 drop table persons
+
+-- Remove all values in the table peoples
+
+truncate table persons
+
+-- Rename the table name
+
+rename table persons to people
+
+
+
 
 
 
