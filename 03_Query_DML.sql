@@ -4,7 +4,7 @@
 -- UPDATE
 -- DELETE
 
-/* Insert extra values tin the table customers*/
+/* Insert extra values in the table customers*/
 
 insert into customers (id, first_name, country, score)
 values
@@ -53,7 +53,7 @@ where score is null
 delete from customers
 where id>5
 
-select*from customers
+
 
 /* Delete all data inside the table*/
 
